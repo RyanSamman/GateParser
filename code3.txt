@@ -1,0 +1,6 @@
+A = 0b1011
+B = 0b1101
+
+Z = (A OR B) AND (NOT B)
+
+OUTBIN Z

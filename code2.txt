@@ -1,0 +1,11 @@
+// Supports . line endings
+i1 = 0b1011.
+i2 = 0b1101.
+i3 = 0b0011.
+i4 = 0b1110.
+i5 = 0b1010.
+i6 = 0b1111.
+
+result = (i1 OR i2) AND ((i3 XOR i4) OR (i5 AND i6)).
+OUT result.
+OUTBIN result.

@@ -1,0 +1,27 @@
+// Comment
+// OUT 1234
+input1 = 0b0100
+OUT INPUT1
+OUTBIN input1
+
+OUT _______
+
+input2 = 0b1010
+OUT INPUT2:
+OUTBIN input2
+
+OUT _______
+
+result1 = (input1 AND (NOT input2)) OR ((NOT input1) AND input2)
+
+OUT RESULT1_SIMULATED_XOR:
+OUT result1
+OUTBIN result1
+
+OUT _______
+
+result2 = input1 XOR input2
+
+OUT RESULT2_XOR:
+OUT result2
+OUTBIN result2
