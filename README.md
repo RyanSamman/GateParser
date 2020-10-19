@@ -3,6 +3,9 @@
 
 Inspired by this expression in the CPIT201 book, I decided to write code to parse the expression and obtain the result. Somehow, the code I wrote to parse the expression ended up becoming a very simple language.
 
+### Note
+There is a small bug with how `NOT` works, instead of flipping the given bits, it flips all bits (Bits are stored as a number, not a string). To avoid the bug, use `1111 XOR 1100` instead of `NOT 1100`
+
 # Example 1
 
 <img align="center" src="./images/XOR.png" alt="XOR Image">
