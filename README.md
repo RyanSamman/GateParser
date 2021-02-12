@@ -1,6 +1,4 @@
 # Gate Expression Parser
-## README is a WIP, studying for midterm exams
-
 Inspired by this expression in the CPIT201 book, I decided to write code to parse the expression and obtain the result. Somehow, the code I wrote to parse the expression ended up becoming a very simple language.
 
 ### Note
